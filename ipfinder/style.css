@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    background-position: center;
+    background-color: rgb(14, 73, 184);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  
+  .container{
+    text-align: center;
+}
+
+.heading{
+  font-size: 60px;
+  font-family: cursive;
+  color: rgb(238, 55, 55);
+  width: 90px;
+}
+
+.head{
+  align-content: center;
+  text-align: center;
+  font-size: 70px;
+  background-color: darkgrey;
+}
+.row{
+  justify-content: right;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 20px;
+  color: blueviolet;
+  
+}
+
+.last{
+  background-color: rgb(13, 187, 187);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP-Finder-App</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<body>
+  <!-- Header -->
+        <div class="header">
+            <h class="heading">IP Finder</h>
+            <h3 style="font-family: cursive;"><b>Get the IP details</b></h3>
+            <br>
+            <div class="container">
+              <div class="center-align">
+                <form class="row col-12">
+                  <div class="col-3"></div>
+                  <div class="col-5 text-center">
+                    <input type="text" class="form-control" id="search" placeholder="Enter Ip address"/>
+                  </div>
+                  <div class="col-1 submit-btn">
+                    <button type="button" class="btn btn-primary mb-3"onclick="ipData(document.getElementById('search').value)">Get</button>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="head">
+      <b><span><h1>Your Entered IP Address is:</h1></span> </b>
+     <b><span><div id="ip"></div></span></b>  
+    </div>
+
+    <div class="head">
+      <span><h4>Owned by</h4></span> 
+      <span><div id="orgname"></div></span>
+    </div>
+  
+    <div class="container last col-12" id="data">
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Country Name:
+        <b><span id="name"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">City:
+        <b><span id="city"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Country code :
+       <b><span id="code"></span></b> 
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">latitude :
+        <b><span id="lat"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">longitude :
+          <b><span id="lon"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Region :
+      <b><span id="region"></span></b>  
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Region Name :
+        <b><span id="regionName"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Time Zone :
+        <b><span id="timezone"></span></b>
+      </span>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <span class="col-4">Zip :
+       <b><span id="zip"></span></b>
+      </span>
+      </div>
+
+
+     
+
+    
+
+   
+
+  </div>
+
+
+
+
+
+
+
+<!-- script -->
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
